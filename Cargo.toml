@@ -1,7 +1,13 @@
 [package]
 name = "utils"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+homepage = "https://github.com/blkmlk/memtrack-utils"
+license = "MIT"
+description = "A library with utils for parsing heap tracing files"
+keywords = ["dylib", "heaptrack", "utils", "memtrack", "heap"]
+categories = ["os", "text-processing", "network-programming"]
+repository = "https://github.com/blkmlk/memtrack-utils"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
