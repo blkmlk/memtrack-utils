@@ -139,7 +139,7 @@ mod tests {
     use crate::resolver::Resolver;
     use std::ffi::c_void;
 
-    extern "C" {
+    unsafe extern "C" {
         fn _dyld_get_image_header(index: u32) -> *const c_void;
         fn _dyld_get_image_vmaddr_slide(index: u32) -> isize;
     }
