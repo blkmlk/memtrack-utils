@@ -1,9 +1,6 @@
 # utils
 
-
-## memtrack-utils
-
-### memtrack-utils
+## memtrace-utils
 
 A library with utils used for parsing heap tracing files
 
